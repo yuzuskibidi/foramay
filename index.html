@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Untuk Ametha Yulistya🤍💙</title
+      <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+    </head> 
+<body>
+    <div class="bg-float">
+        <div class="float-item">☁️</div>
+        <div class="float-item">🌸</div>
+        <div class="float-item">✨</div>
+        <div class="float-item">💫</div>
+    </div>
+
+    <audio id="bgMusic" loop>
+        <source src="musik/amay.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- AUDIO UNTUK PLAYLIST - KODE BARU -->
+    <audio id="playlistAudio"></audio>
+
+    <button class="music-btn" id="musicBtn">🎵</button>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hai ametha… <br>
+          ada sesuatu yang mau ehan bilang <span class="sparkle">🤍</span></h1>
+            <p class="subtitle">Scroll ke bawah ya... aku ingin cerita sesuatu ✨</p>
+        </div>
+        <div class="scroll-hint">↓</div>
+    </section>
+
+    <section class="story-section">
+        <div class="story-card" data-delay="0">
+            <span class="icon">🌅</span>
+            <img src="foto/foto1.jpeg" alt="Sunrise" loading="lazy">
+            <p>Dari pertama kali aku melihatmu, rasanya seperti matahari terbit pertama kali. Semuanya jadi lebih terang dan hangat.</p>
+        </div>
+
+        <div class="story-card" data-delay="200">
+            <span class="icon">🌸</span>
+            <img src="foto/foto2.jpeg" alt="Flowers" loading="lazy">
+            <p>Kamu itu seperti bunga yang mekar di taman hatiku. Indah, lembut, dan selalu bikin hari-hariku lebih berwarna.</p>
+        </div>
+
+        <div class="story-card" data-delay="400">
+            <span class="icon">☁️</span>
+            <img src="foto/foto3.jpeg" alt="Sky" loading="lazy">
+            <p>Bersamamu, semuanya terasa ringan seperti awan di langit biru. Tenang, damai, dan penuh kedamaian.</p>
+        </div>
+
+        <div class="story-card" data-delay="600">
+            <span class="icon">💫</span>
+            <img src="foto/foto4.jpeg" alt="Couple" loading="lazy">
+            <p>Aku ingin kita seperti bintang dan bulan, saling melengkapi dalam keindahan malam yang tenang.</p>
+        </div>
+    </section>
+
+    <!-- PLAYLIST SECTION - KODE BARU -->
+    <section class="playlist-section">
+        <h2 class="playlist-title">Lagu Pavorit Amayy 🎵💙</h2>
+        <div class="playlist-container">
+            <div class="song-card" data-song="musik/song1.mp3">
+                <div class="song-number">1</div>
+                <div class="song-info">
+                    <div class="song-title">Breathe</div>
+                    <div class="song-artist">Kenzie</div>
+                </div>
+                <div class="song-icon">🎵</div>
+            </div>
+
+            <div class="song-card" data-song="musik/song2.mp3">
+                <div class="song-number">2</div>
+                <div class="song-info">
+                    <div class="song-title">Tunggu Apa Lagi</div>
+                    <div class="song-artist">Nyoman Paul</div>
+                </div>
+                <div class="song-icon">🎵</div>
+            </div>
+
+            <div class="song-card" data-song="musik/song3.mp3">
+                <div class="song-number">3</div>
+                <div class="song-info">
+                    <div class="song-title">On My Mind</div>
+                    <div class="song-artist">Maximillian</div>
+                </div>
+                <div class="song-icon">🎵</div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="special-song-section">
+    <h2 class="special-title">Lagu Untuk Ametha Dari Ehan 🤍💙</h2>
+
+    <div class="special-card" id="specialSong" data-song="musik/song4.mp3">
+        <div class="special-glow"></div>
+        <div class="special-content">
+            <div class="special-icon">💙</div>
+            <div class="special-text">
+                <div class="special-name">Untuk Ametha</div>
+                <div class="special-from">Dari Ehan 🤍</div>
+            </div>
+            <div class="special-play">▶</div>
+        </div>
+    </div>
+</section>
+
+    <section class="question-section" id="questionSection">
+        <h2>Ametha....
+        Maukah kamu jadi bagian dari hariku? yaitu pacarku..🤍💙</h2>
+        <div class="button-group" style="position:relative;">
+            <button class="btn-choice" onclick="showHappy()">
+                <span>Aku mau banget 🤍</span>
+            </button>
+            <button class="btn-choice" id="noBtn">
+                <span>Enggak mau 🙃</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="happy-section" id="happySection">
+        <div class="confetti-container" id="confettiContainer"></div>
+        <div class="happy-content">
+            <h2>Yeay! Makasih ya…🥹🤍💙</h2>
+            <p>Aku senang banget kamu mau. Kamu bikin hariku lebih indah, lebih hangat, dan lebih berarti. Aku janji akan selalu jaga dan sayang kamu 🌸✨</p>
+        </div>
+    </section>
+
+      <script src="script.js"></script>
+    </body>
+</html>
